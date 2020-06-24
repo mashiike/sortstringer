@@ -59,6 +59,21 @@ func Slice(slice interface{}, less func(is, js string) bool) {
 	sort.Sort(s)
 }
 
+// SliceStable sorts the provided slice given the provided less
+// function while keeping the original order of equal elements.
+// Same as sort.SliceStable function
+func SliceStable(slice interface{}, less func(is, js string) bool) {
+	s := newStringerSlice(slice, less)
+	sort.Stable(s)
+}
+
+// SliceIsSorted tests whether a slice is sorted.
+// Same as sort.SliceIsSorted
+func SliceIsSorted(slice interface{}, less func(is, js string) bool) bool {
+	s := newStringerSlice(slice, less)
+	return sort.IsSorted(s)
+}
+
 func getString(rv reflect.Value) string {
 	if rv.Kind() == reflect.String {
 		return rv.String()
