@@ -5,7 +5,7 @@ extended sort package for fmt.Stringer in golang
 [![Go Report Card](https://goreportcard.com/badge/github.com/mashiike/sortstringer)](https://goreportcard.com/report/github.com/mashiike/sortstringer)
 [![Documentation](https://godoc.org/github.com/mashiike/sortstringer?status.svg)](http://godoc.org/github.com/mashiike/sortstringer)
 [![license](https://img.shields.io/github/license/mashiike/sortstringer.svg?maxAge=2592000)](https://github.com/mashiike/sortstringer/LICENSE)
-[![Release](https://img.shields.io/github/release/mashiike/sortstringer.svg?label=Release)](https://github.com/mashiike/sortstringer/releases)
+[![Version](https://img.shields.io/github/v/tag/mashiike/sortstringer.svg?label=Version)](https://github.com/mashiike/sortstringer/tags)
 
 ## Simple usecase
 
