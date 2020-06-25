@@ -1,8 +1,7 @@
 # sortstringer
 extended sort package for fmt.Stringer in golang
 
-
-
+![ci](https://github.com/mashiike/sortstringer/workflows/Test/badge.svg)
 [![Go Report Card](https://goreportcard.com/badge/github.com/mashiike/sortstringer)](https://goreportcard.com/report/github.com/mashiike/sortstringer)
 [![Documentation](https://godoc.org/github.com/mashiike/sortstringer?status.svg)](http://godoc.org/github.com/mashiike/sortstringer)
 [![license](https://img.shields.io/github/license/mashiike/sortstringer.svg?maxAge=2592000)](https://github.com/mashiike/sortstringer/LICENSE)
